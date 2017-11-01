@@ -1,0 +1,41 @@
+{
+  "name": "formable-for-wordpress",
+  "version": "1.0.0",
+  "description": "Plugin to integrate Formable into WordPress",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "npm run sass -- --output-style compressed && npm run webpack -- --optimize-minimize",
+    "sass": "node-sass assets/css/formable.scss assets/formable.css",
+    "sass:dev": "npm run sass -- --watch",
+    "webpack": "webpack",
+    "webpack:dev": "npm run webpack -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gaya/Formable-for-WordPress.git"
+  },
+  "keywords": [
+    "Formable",
+    "WordPress",
+    "Forms",
+    "Contact",
+    "Form",
+    "HTML",
+    "Embed"
+  ],
+  "author": "Gaya Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaya/Formable-for-WordPress/issues"
+  },
+  "homepage": "https://github.com/Gaya/Formable-for-WordPress#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.5.3",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {}
+}
