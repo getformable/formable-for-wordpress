@@ -9,7 +9,8 @@
     "sass": "node-sass assets/css/formable.scss assets/formable.css",
     "sass:dev": "npm run sass -- --watch",
     "webpack": "webpack",
-    "webpack:dev": "npm run webpack -- --watch"
+    "webpack:dev": "npm run webpack -- --watch",
+    "archive": "zip -r formable.zip ./ -x "node_modules/*" -x ".git/*""
   },
   "repository": {
     "type": "git",
