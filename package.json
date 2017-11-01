@@ -10,7 +10,7 @@
     "sass:dev": "npm run sass -- --watch",
     "webpack": "webpack",
     "webpack:dev": "npm run webpack -- --watch",
-    "archive": "zip -r formable.zip ./ -x "node_modules/*" -x ".git/*""
+    "archive": "zip -r formable.zip ./ -x 'node_modules/*' -x '.git/*'"
   },
   "repository": {
     "type": "git",
