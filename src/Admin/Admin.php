@@ -62,7 +62,7 @@ class Admin {
   public function handleTokenReceive() {
     if (isset($_GET['receivedToken'])) {
       $receivedToken = $_GET['receivedToken'];
-      $this->saveSettings(array('clientToken' => $receivedToken));
+      self::saveSettings(array('clientToken' => $receivedToken));
     }
   }
 
