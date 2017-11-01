@@ -6,8 +6,8 @@ Requires at least: 4.0
 Tested up to: 4.8
 Requires PHP: 5.6
 Stable tag: 1.0
-License: MIT
-License URI: https://opensource.org/licenses/MIT
+License: GPLv2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Integrates Formable into your WordPress install. This allows you to add your Formable form in WordPress.
 
