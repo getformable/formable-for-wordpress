@@ -2,6 +2,8 @@
 
 Plugin which allows WordPress users to connect their WordPress install to Formable.
 
+[Formable](https://www.getformable.com) is a service which allows for easy form building and embedding. You'll need an account to make use of this plugin on WordPress.
+
 ## Installation
 
 1. Download latest plugin zip.
