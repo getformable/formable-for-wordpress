@@ -6,6 +6,8 @@ Plugin which allows WordPress users to connect their WordPress install to Formab
 
 ## Installation
 
+[Read the full installation guide](https://www.getformable.com/support/wordpress-plugin) which is available on Formable's support page.
+
 1. Download latest plugin zip.
 2. Extract to `/wp-content/plugins`.
 3. Click "Formable" in the left menu bar in your WordPress admin.
