@@ -17,7 +17,7 @@ function handleClosing(btn, receivedToken) {
 function openFormableConnect(btn) {
   const menuWidth = 160;
   const popUpWidth = 800;
-  const popUpHeight = 600;
+  const popUpHeight = 780;
 
   const left = 
     (window.screenX | window.screenLeft) + 
