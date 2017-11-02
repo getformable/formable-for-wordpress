@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 
-module.exports = (env) => ({
+module.exports = (env = {}) => ({
   entry: './assets/js/index.js',
   output: {
     path: path.resolve(__dirname, 'assets'),
