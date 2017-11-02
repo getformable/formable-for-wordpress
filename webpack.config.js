@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 
-module.exports = {
+module.exports = (env) => ({
   entry: './assets/js/index.js',
   output: {
     path: path.resolve(__dirname, 'assets'),
@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-        FORMABLE_URL: JSON.stringify('https://app.getformable.com'),
+        FORMABLE_URL: JSON.stringify(env.appUrl ? env.appUrl : 'https://app.getformable.com'),
     }),
   ],
-};
+});
