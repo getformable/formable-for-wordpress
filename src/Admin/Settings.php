@@ -10,6 +10,6 @@ class Settings {
     $formsInstance = new Forms();
 
     $this->forms = $formsInstance->getForms();
-    $this->lastUpdated = time_elapsed_string($formsInstance->getLastUpdated());
+    $this->lastUpdated = Helpers::timeElapsedString($formsInstance->getLastUpdated());
   }
 }

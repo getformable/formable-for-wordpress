@@ -10,5 +10,6 @@ return array(
     'Formable\\Client' => $baseDir . '/src/Client.php',
     'Formable\\FormableAPI' => $baseDir . '/src/Admin/FormableAPI.php',
     'Formable\\Forms' => $baseDir . '/src/Admin/Forms.php',
+    'Formable\\Helpers' => $baseDir . '/src/Helpers.php',
     'Formable\\Settings' => $baseDir . '/src/Admin/Settings.php',
 );

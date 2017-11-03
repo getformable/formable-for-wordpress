@@ -11,6 +11,7 @@ class ComposerStaticInit6624e64b43d8b10f84ff63c345cfa51d
         'Formable\\Client' => __DIR__ . '/../..' . '/src/Client.php',
         'Formable\\FormableAPI' => __DIR__ . '/../..' . '/src/Admin/FormableAPI.php',
         'Formable\\Forms' => __DIR__ . '/../..' . '/src/Admin/Forms.php',
+        'Formable\\Helpers' => __DIR__ . '/../..' . '/src/Helpers.php',
         'Formable\\Settings' => __DIR__ . '/../..' . '/src/Admin/Settings.php',
     );
 

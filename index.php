@@ -35,7 +35,6 @@ function bootstrap() {
   $client->hooks();
 }
 
-require __DIR__ . '/src/functions.php';
 require __DIR__ . '/vendor/autoload.php';
 
 add_action('plugins_loaded', 'Formable\\bootstrap', 10);
