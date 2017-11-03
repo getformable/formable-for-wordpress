@@ -45,4 +45,5 @@ define('FORMABLE_STATIC_URL', 'http://localhost:9090');
 You can adjust the URL passed defined in webpack's config by adding a simple env param.
 
 `npm run webpack -- --env.appUrl=http://localhost:9090`
+
 `npm run webpack:dev -- --env.appUrl=http://localhost:9090`
