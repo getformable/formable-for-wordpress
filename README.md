@@ -32,3 +32,17 @@ You'll need node and npm installed.
 
 1. `npm run webpack:dev` to run JavaScript building in watch mode.
 2. `npm run sass:dev` to run Sass building in watch mode.
+
+### Changing API and static content URLs
+
+Place the following in your `wp-config.php` to overwrite the URLs in PHP (The URLs are examples).
+
+```
+define('FORMABLE_API_URL', 'http://localhost:9191');
+define('FORMABLE_STATIC_URL', 'http://localhost:9090');
+```
+
+You can adjust the URL passed defined in webpack's config by adding a simple env param.
+
+`npm run webpack -- --env.appUrl=http://localhost:9090`
+`npm run webpack:dev -- --env.appUrl=http://localhost:9090`

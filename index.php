@@ -15,13 +15,8 @@ Author URI: https://www.getformable.com
 namespace Formable;
 
 define('FORMABLE_VERSION', '1.0.0');
-
-// local versions on the url
-// define('FORMABLE_API_URL', 'http://10.0.2.2:9191');
-// define('FORMABLE_STATIC_URL', 'http://localhost:9090');
-
-define('FORMABLE_API_URL', 'https://api.getformable.com');
-define('FORMABLE_STATIC_URL', 'https://app.getformable.com');
+if (!defined('FORMABLE_API_URL')) { define('FORMABLE_API_URL', 'https://api.getformable.com'); }
+if (!defined('FORMABLE_STATIC_URL')) { define('FORMABLE_STATIC_URL', 'https://app.getformable.com'); }
 
 function bootstrap() {
   if(is_admin()) {
